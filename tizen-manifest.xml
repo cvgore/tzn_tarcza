@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.5" package="re.cvgo.tzn_tarcza" version="1.0.0">
+    <author email="hi@cvgo.re" href="http://cvgo.re">cvgore</author>
+    <profile name="wearable"/>
+    <watch-application ambient-support="true" appid="re.cvgo.tzn_tarcza" exec="tarcza">
+        <label>tarcza</label>
+        <icon>tarcza.png</icon>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+</manifest>
